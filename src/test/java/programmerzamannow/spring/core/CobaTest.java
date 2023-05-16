@@ -10,9 +10,9 @@ public class CobaTest {
     @Test
     void testApplicationContext() {
 
-        ApplicationContext context = new AnnotationConfigApplicationContext(HelloWorldConfiguration.class);
+        ApplicationContext context1 = new AnnotationConfigApplicationContext(HelloWorldConfiguration.class);
 
-        Assertions.assertNotNull(context);
+        Assertions.assertNotNull(context1);
 
     }
 
